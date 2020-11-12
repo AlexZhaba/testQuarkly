@@ -6,22 +6,19 @@ const Container = atomize.div({
 	}
 });
 
-const Card = props => <Container {...props}>
+const Card = ({
+	theme,
+	children,
+	...props
+}) => <Container {...props} // sm-m='16px'
+// md-m='20px'
+// m='24px'
+p='24px' style={{
+	display: "flex",
+	justifyContent: "space-around"
+}}>
 	    
-	<div style={{
-		fontSize: 30,
-		color: "red"
-	}}>
-		Hello World!
-	</div>
-	    
-	<div style={{
-		width: 1920,
-		background: "blue"
-	}}>
-		        Hello
-    
-	</div>
+	{children}
 	  
 </Container>;
 
@@ -29,5 +26,17 @@ export default atomize(Card)({
 	name: "Card",
 	description: {
 		en: "Card - My cool com"
+	},
+	propInfo: {
+		theme: {
+			description: {
+				en: "Theme"
+			},
+			control: "radio-group",
+			variants: ['light', 'dark'],
+			weight: 1
+		}
 	}
+}, {
+	theme: "light"
 });
