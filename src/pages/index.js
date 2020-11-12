@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import * as Components from "components";
 export default (() => {
@@ -13,8 +13,13 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Box min-height="1080px" justify-content="center" align-items="center" background="#181818">
-			<Components.Card theme="light">
-				<Image width="189px" height="58px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logo%20dark.svg?v=2020-11-12T17:13:59.894Z" />
+			<Components.Card quarkly-title="Header">
+				<Image width="198px" height="58px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logo%20dark.svg?v=2020-11-12T17:13:59.894Z" />
+				<Components.HeaderButton font="16px ">
+					<Text font="17px/25px Inter" margin="0 0px 0 0px">
+						Login
+					</Text>
+				</Components.HeaderButton>
 			</Components.Card>
 		</Box>
 		<Link

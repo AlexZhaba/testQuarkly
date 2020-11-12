@@ -1,12 +1,11 @@
 import React from 'react';
 import atomize from '@quarkly/atomize';
-const Container = atomize.div({
-	effects: {
-		hover: ':hover'
-	}
+const Container = atomize.div({// effects: {
+	//   hover: ':hover'
+	// }
 });
 
-const Card = ({
+const Header = ({
 	theme,
 	children,
 	...props
@@ -15,28 +14,28 @@ const Card = ({
 // m='24px'
 p='24px' style={{
 	display: "flex",
-	justifyContent: "space-around"
+	justifyContent: "center"
 }}>
 	    
 	{children}
 	  
 </Container>;
 
-export default atomize(Card)({
-	name: "Card",
+export default atomize(Header)({
+	name: "Header",
 	description: {
-		en: "Card - My cool com"
+		en: "Header - My cool com"
 	},
-	propInfo: {
-		theme: {
-			description: {
-				en: "Theme"
-			},
-			control: "radio-group",
-			variants: ['light', 'dark'],
-			weight: 1
-		}
+	propInfo: {// theme: {
+		//   description: {
+		//     en: "Theme"
+		//   },
+		//   control: "radio-group",
+		//   variants: [
+		//     'light', 'dark'
+		//   ],
+		//   weight: 1
+		// }
 	}
-}, {
-	theme: "light"
-});
+} // {theme: "light"}
+);
