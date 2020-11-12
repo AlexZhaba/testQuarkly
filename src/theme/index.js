@@ -152,7 +152,6 @@ export default {
 			}
 		}
 	},
-	"version": 1,
 	"fonts": {
 		"Inter": {
 			"family": "Inter",
@@ -172,5 +171,6 @@ export default {
 				]
 			}
 		}
-	}
+	},
+	"version": 6
 }

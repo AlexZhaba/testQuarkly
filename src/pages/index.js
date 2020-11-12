@@ -15,6 +15,13 @@ export default (() => {
 		<Box min-height="1080px" justify-content="center" align-items="center" background="#181818">
 			<Components.Card quarkly-title="Header">
 				<Image width="198px" height="58px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logo%20dark.svg?v=2020-11-12T17:13:59.894Z" />
+				<Components.HeaderList>
+					<Components.HeaderLink href="#">
+						<Text>
+							Contact
+						</Text>
+					</Components.HeaderLink>
+				</Components.HeaderList>
 				<Components.HeaderButton font="16px ">
 					<Text font="17px/25px Inter" margin="0 0px 0 0px">
 						Login

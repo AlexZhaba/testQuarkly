@@ -9,13 +9,18 @@ const Header = ({
 	theme,
 	children,
 	...props
-}) => <Container {...props} // sm-m='16px'
-// md-m='20px'
-// m='24px'
-p='24px' style={{
-	display: "flex",
-	justifyContent: "center"
-}}>
+}) => <Container
+	{...props} // sm-m='16px'
+	// md-m='20px'
+	// m='24px'
+
+	p='24px'
+	d="flex"
+	jc="center"
+	ai="center"
+	ff="Inter" // style={{display: "flex", justifyContent: "center"}}
+
+>
 	    
 	{children}
 	  
