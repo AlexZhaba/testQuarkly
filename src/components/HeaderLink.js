@@ -11,9 +11,14 @@ const HeaderLink = ({
 	children,
 	href,
 	...props
-}) => <Container {...props} // p='20px'
-c="#FFF" hover-c='red' trs='all .3s ease'>
-	<Link to={href} c="#FFF" td="none">
+}) => <Container {...props} p='10px' c="#FFF" m="0 30px">
+	<Link
+		to={href}
+		c="#FFF"
+		td="none"
+		hover-c='#02E4C0'
+		trs='all .3s ease'
+	>
 		{children}
 	</Link>
 </Container>;

@@ -14,9 +14,24 @@ export default (() => {
 		</Helmet>
 		<Box min-height="1080px" justify-content="center" align-items="center" background="#181818">
 			<Components.Card quarkly-title="Header">
-				<Image width="198px" height="58px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logo%20dark.svg?v=2020-11-12T17:13:59.894Z" />
+				<Image width="198px" height="58px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logo%20dark.svg?v=2020-11-12T17:13:59.894Z" margin="0px 144px 0px 0px" />
 				<Components.HeaderList>
-					<Components.HeaderLink href="#">
+					<Components.HeaderLink href="/Home">
+						<Text>
+							Home
+						</Text>
+					</Components.HeaderLink>
+					<Components.HeaderLink href="/Product">
+						<Text>
+							Product
+						</Text>
+					</Components.HeaderLink>
+					<Components.HeaderLink href="/About">
+						<Text>
+							About
+						</Text>
+					</Components.HeaderLink>
+					<Components.HeaderLink href="/Contact">
 						<Text>
 							Contact
 						</Text>
