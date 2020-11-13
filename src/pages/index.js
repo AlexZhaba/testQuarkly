@@ -20,6 +20,7 @@ export default (() => {
 				background="#181818"
 				as="aside"
 				display="block"
+				font="16px Inter"
 			>
 				<Components.Card quarkly-title="Header">
 					<Components.HeaderImage>
@@ -54,6 +55,12 @@ export default (() => {
 					</Components.HeaderButton>
 					<Components.Burger />
 				</Components.Card>
+				<Box width="100%" display="flex" justify-content="center">
+					<Components.MainTitle />
+				</Box>
+				<Box display="flex" justify-content="center" align-items="center">
+					<Components.MainSubtitle display="flex" justify-content="center" />
+				</Box>
 			</Box>
 		</Components.AdaptiveBox>
 		<Link

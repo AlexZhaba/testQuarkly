@@ -15,9 +15,10 @@ const BurgerMenu = ({
 	bgc="red"
 	top="88px"
 	left="0px"
-	w={isOpen ? "100%" : "0px"}
-	w="100%"
-	op={isOpen ? "1" : "0"} // z={isOpen ? "10" : "-1"}
+	w={isOpen ? "100%" : "0px"} // w="100%"
+
+	op={isOpen ? "1" : "0"}
+	z="10" // h={isOpen ? "calc(100vh - 88px)" : "0px"}
 
 	h="calc(100vh - 88px)"
 	bgc="#181818" // bgc="red"
@@ -73,7 +74,7 @@ const Burger = ({
 	children,
 	...props
 }) => {
-	let [isOpen, setIsOpen] = useState(true);
+	let [isOpen, setIsOpen] = useState(false);
 	return <Container
 		{...props}
 		{...styleBurger}

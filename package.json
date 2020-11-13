@@ -27,6 +27,7 @@
         "react": "^16.13.0",
         "@quarkly/atomize": "1.0.8",
         "@quarkly/widgets": "0.2.40",
+        "react-text-loop": "latest",
         "@quarkly/theme": "latest",
         "react-dom": "^16.13.0",
         "@quarkly/components": "0.2.40",
