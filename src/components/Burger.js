@@ -16,6 +16,9 @@ const BurgerMenu = ({
 	top="88px"
 	left="0px"
 	w={isOpen ? "100%" : "0px"}
+	w="100%"
+	op={isOpen ? "1" : "0"} // z={isOpen ? "10" : "-1"}
+
 	h="calc(100vh - 88px)"
 	bgc="#181818" // bgc="red"
 
@@ -25,6 +28,7 @@ const BurgerMenu = ({
 	fxd="column"
 	fz="30px"
 	ov="hidden"
+	trs=".3s all ease-in-out"
 >
 	     
 	<Text mt="60px" hover-c="#02E4C0" trs=".3s all" cur="pointer">
@@ -62,26 +66,59 @@ const styleBurger = {
 	fxd: "column",
 	ai: "flex-end",
 	w: "0px",
-	h: "0px",
-	ov: "hidden"
+	h: "0px"
 };
 
 const Burger = ({
 	children,
 	...props
 }) => {
-	let [isOpen, setIsOpen] = useState(false);
-	return <Container {...props} {...styleBurger} gmd-w="44px" gmd-h="30px">
+	let [isOpen, setIsOpen] = useState(true);
+	return <Container
+		{...props}
+		{...styleBurger}
+		gmd-w="44px"
+		gmd-h="30px"
+		ov={isOpen ? "" : "hidden"}
+	>
 		    
 		<BurgerMenu isOpen={isOpen} />
 		    
-		<Box onClick={() => setIsOpen(!isOpen)}>
+		<Box
+			onClick={() => setIsOpen(!isOpen)}
+			d="flex"
+			fxd="column"
+			ai="flex-end"
+			cur="pointer"
+		>
 			    
-			<Container h="5px" w="44px" bgc="#FFF" mb="5px" />
+			<Container
+				h="5px"
+				w="44px"
+				bgc="#FFF"
+				mb="5px" // trso="0 30%"
+
+				trf={isOpen ? "rotate(-45deg) translate(-6px,11px)" : ""}
+				trs=".3s all"
+			/>
 			    
-			<Container h="5px" w="34px" bgc="#FFF" mb="5px" />
+			<Container
+				h="5px"
+				w="34px"
+				bgc="#FFF"
+				mb="5px"
+				trs=".3s all"
+				opacity={isOpen ? "0" : "1"}
+			/>
 			    
-			<Container h="5px" w="20px" bgc="#FFF" mb="5px" />
+			<Container
+				h="5px"
+				w={isOpen ? "44px" : "22px"}
+				bgc="#FFF"
+				mb="5px"
+				trf={isOpen ? "rotate(45deg) translate(-2px,-8px)" : ""}
+				trs=".3s all"
+			/>
 			    
 		</Box>
 		    
