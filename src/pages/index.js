@@ -12,38 +12,50 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Box min-height="1080px" justify-content="center" align-items="center" background="#181818">
-			<Components.Card quarkly-title="Header">
-				<Image width="198px" height="58px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logo%20dark.svg?v=2020-11-12T17:13:59.894Z" margin="0px 144px 0px 0px" />
-				<Components.HeaderList>
-					<Components.HeaderLink href="/Home">
-						<Text>
-							Home
+		<Components.AdaptiveBox>
+			<Box
+				min-height="1080px"
+				justify-content="center"
+				align-items="center"
+				background="#181818"
+				as="aside"
+				display="block"
+			>
+				<Components.Card quarkly-title="Header">
+					<Components.HeaderImage>
+						<Image width="198px" height="58px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logo%20dark.svg?v=2020-11-12T17:13:59.894Z" margin="0px 0 0px 0px" />
+					</Components.HeaderImage>
+					<Components.HeaderList>
+						<Components.HeaderLink href="/Home">
+							<Text>
+								Home
+							</Text>
+						</Components.HeaderLink>
+						<Components.HeaderLink href="/Product">
+							<Text>
+								Product
+							</Text>
+						</Components.HeaderLink>
+						<Components.HeaderLink href="/About">
+							<Text>
+								About
+							</Text>
+						</Components.HeaderLink>
+						<Components.HeaderLink href="/Contact">
+							<Text>
+								Contact
+							</Text>
+						</Components.HeaderLink>
+					</Components.HeaderList>
+					<Components.HeaderButton font="16px ">
+						<Text font="17px/25px Inter" margin="0 0px 0 0px">
+							Login
 						</Text>
-					</Components.HeaderLink>
-					<Components.HeaderLink href="/Product">
-						<Text>
-							Product
-						</Text>
-					</Components.HeaderLink>
-					<Components.HeaderLink href="/About">
-						<Text>
-							About
-						</Text>
-					</Components.HeaderLink>
-					<Components.HeaderLink href="/Contact">
-						<Text>
-							Contact
-						</Text>
-					</Components.HeaderLink>
-				</Components.HeaderList>
-				<Components.HeaderButton font="16px ">
-					<Text font="17px/25px Inter" margin="0 0px 0 0px">
-						Login
-					</Text>
-				</Components.HeaderButton>
-			</Components.Card>
-		</Box>
+					</Components.HeaderButton>
+					<Components.Burger />
+				</Components.Card>
+			</Box>
+		</Components.AdaptiveBox>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

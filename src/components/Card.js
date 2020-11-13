@@ -14,11 +14,13 @@ const Header = ({
 	// md-m='20px'
 	// m='24px'
 
-	p='24px'
+	p='20px'
 	d="flex"
 	jc="center"
 	ai="center"
-	ff="Inter" // style={{display: "flex", justifyContent: "center"}}
+	ff="Inter"
+	gmd-p="15px 24px"
+	hdmd-jc="space-between" // style={{display: "flex", justifyContent: "center"}}
 
 >
 	    

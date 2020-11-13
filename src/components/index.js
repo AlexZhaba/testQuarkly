@@ -1,4 +1,7 @@
+export { default as HeaderImage } from "./HeaderImage"
 export { default as HeaderLink } from "./HeaderLink"
 export { default as HeaderList } from "./HeaderList"
 export { default as HeaderButton } from "./HeaderButton"
+export { default as Burger } from "./Burger"
 export { default as Card } from "./Card"
+export { default as AdaptiveBox } from "./AdaptiveBox"

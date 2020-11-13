@@ -9,7 +9,13 @@ const Container = atomize.div({
 const HeaderList = ({
 	children,
 	...props
-}) => <Container {...props} d="flex" jc="center" // p="20px"
+}) => <Container
+	{...props}
+	d="flex"
+	jc="center"
+	ov="hidden"
+	gmd-w="0px" // p="20px"
+
 >
 	  
 	{children}
