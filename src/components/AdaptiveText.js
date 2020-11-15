@@ -14,6 +14,7 @@ const AdaptiveText = ({
 	fz={props.defFontSize}
 	gmd-fz={props.mediumFontSize}
 	gsm-fz={props.smallFontSize}
+	g700-fz={props.g700size}
 	c={props.color}
 	w={props.width}
 >
@@ -51,6 +52,12 @@ export default atomize(AdaptiveText)({
 			control: "input"
 		},
 		color: {
+			description: {
+				en: "color"
+			},
+			control: "input"
+		},
+		g700size: {
 			description: {
 				en: "color"
 			},

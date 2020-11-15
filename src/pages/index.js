@@ -84,7 +84,7 @@ export default (() => {
 					</Components.ImageWrapper>
 				</Components.MainBoxImage>
 				<Components.Title>
-					<Components.AdaptiveText defFontSize="52px" color="#ffffff">
+					<Components.AdaptiveText defFontSize="52px" color="#ffffff" g700size="36px">
 						<Text margin="0 0px 0 0px">
 							Features{"\n\n"}
 						</Text>
@@ -230,19 +230,21 @@ export default (() => {
 				</Components.BoxPlus>
 				<Section margin="150px 0 0 0">
 					<Components.Title>
-						<Text color="#ffffff">
-							Gallery
-						</Text>
-					</Components.Title>
-					<Components.SubTitle margin="0px 0px 0px 0px">
 						<Components.AdaptiveText>
-							<Text color="#ffffff" font="20px/30px Inter" width="574px" text-align="center">
+							<Text color="#ffffff">
+								Gallery
+							</Text>
+						</Components.AdaptiveText>
+					</Components.Title>
+					<Components.SubTitle>
+						<Components.AdaptiveText width="574px" text-align="center" margin="-20px 0px 0px 0px">
+							<Text color="#ffffff" font="20px/30px Inter">
 								We focus on ergonomics and meeting you where you work. It's only a keystroke away.{"\n\n"}
 							</Text>
 						</Components.AdaptiveText>
 					</Components.SubTitle>
 				</Section>
-				<Components.BoxPlus justify-content="center" g1300_fxDir="column" g1300_AI="center">
+				<Components.BoxPlus justify-content="center" g1300_fxDir="column" g1300_AI="center" lg-display="none">
 					<Components.BoxPlus
 						def_w="594px"
 						margin="32px 0px 0px 0px"
@@ -465,7 +467,7 @@ export default (() => {
 								g1300_w="100%"
 								g1300_h="366px"
 							>
-								<Components.AdaptiveText>
+								<Components.AdaptiveText mediumFontSize="17px">
 									<Text color="#ffffff" text-align="center" width="487px" margin="78px 0px 16px 0px">
 										OpenType features and Variable fonts{"\n\n"}
 									</Text>
@@ -483,7 +485,7 @@ export default (() => {
 					</Components.BoxPlus>
 				</Section>
 				<GoogleMap margin="180px 0px 0px 0px" />
-				<Section margin="150px 0 0 0">
+				<Section margin="50px 0 0 0">
 					<Components.BoxPlus justify-content="center" g1300_fxDir="column">
 						<Components.BoxPlus margin="0px 0px 90px 0px">
 							<Components.BoxPlus>
