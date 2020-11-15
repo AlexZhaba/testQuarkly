@@ -115,10 +115,8 @@ export default (() => {
 					<Components.BoxPlus
 						margin="100px 0px 0px 0px"
 						def_fxDir="column"
-						min-width="500px"
 						g1300_fxDir="row"
 						md_fxDir="column"
-						lg-width="100%"
 						sm-min-width="0px"
 						def_JC="center"
 					>
@@ -169,7 +167,7 @@ export default (() => {
 						</Components.AdaptiveText>
 					</Components.SubTitle>
 				</Section>
-				<Components.BoxPlus justify-content="center" md_fxDir="column">
+				<Components.BoxPlus justify-content="center" md_fxDir="column" md_AI="center">
 					<Components.BoxPlus
 						def_JC="center"
 						def_w="476px"
