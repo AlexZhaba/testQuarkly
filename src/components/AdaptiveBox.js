@@ -21,6 +21,10 @@ const theme = {
 		g1300: [{
 			type: "max-width",
 			value: 1300
+		}],
+		g700: [{
+			type: "max-width",
+			value: 700
 		}]
 	}
 };

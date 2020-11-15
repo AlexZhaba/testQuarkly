@@ -21,9 +21,18 @@ const BoxPlus = ({
 	gmd-fxd={props.md_fxDir}
 	gmd-jc={props.md_JC}
 	gmd-ai={props.md_AI}
+	g700-fxd={props.g700_fxDir}
+	g700-jc={props.g700_JC}
+	g700-ai={props.g700}
 	gsm-fxd={props.sm_fxDir}
 	gsm-jc={props.sm_JC}
 	gsm-ai={props.sm_AI}
+	w={props.def_w}
+	gmd-w={props.md_w}
+	gsm-w={props.sm_w}
+	g700-w={props.g700_w}
+	g1300-w={props.g1300_w}
+	g1300-h={props.g1300_h}
 >
 	    
 	{children}
@@ -75,6 +84,33 @@ export default atomize(BoxPlus)({
 			control: "input"
 		},
 		g1300_JC: {
+			control: "input"
+		},
+		g700_fxDir: {
+			control: "input"
+		},
+		g700_AI: {
+			control: "input"
+		},
+		g700_JC: {
+			control: "input"
+		},
+		def_w: {
+			control: "input"
+		},
+		md_w: {
+			control: "input"
+		},
+		sm_w: {
+			control: "input"
+		},
+		g700_w: {
+			control: "input"
+		},
+		g1300_w: {
+			control: "input"
+		},
+		g1300_h: {
 			control: "input"
 		}
 	}

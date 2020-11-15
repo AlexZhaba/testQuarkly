@@ -19,13 +19,19 @@ const Container = styled.div`
   display: inline-block;
   animation: ${rotate} 2s linear infinite;
 `;
+let Con = atomize.div({});
 
 const Rotate = ({
 	children,
 	...props
 }) => <Container {...props}>
-	    
-	{children}
+	  
+	<Con g700-w="95px" g700-h="95px">
+		    
+		{children}
+		 
+  
+	</Con>
 	  
 </Container>;
 

@@ -1,7 +1,8 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -19,8 +20,11 @@ export default (() => {
 				background="#181818"
 				as="aside"
 				display="block"
-				font="16px Inter"
-				height="4000px"
+				font="52px/62px Inter"
+				height="7000px"
+				box-shadow="0px 4px 31px rgba(0, 0, 0, 0.15);"
+				lg-height="7000px"
+				margin="0px 0px 0px 0px"
 			>
 				<Components.Card quarkly-title="Header">
 					<Components.HeaderImage>
@@ -28,22 +32,22 @@ export default (() => {
 					</Components.HeaderImage>
 					<Components.HeaderList>
 						<Components.HeaderLink href="/Home">
-							<Text>
+							<Text font="16px/62px Inter">
 								Home
 							</Text>
 						</Components.HeaderLink>
 						<Components.HeaderLink href="/Product">
-							<Text>
+							<Text font="16px/62px Inter">
 								Product
 							</Text>
 						</Components.HeaderLink>
 						<Components.HeaderLink href="/About">
-							<Text>
+							<Text font="16px/62px Inter">
 								About
 							</Text>
 						</Components.HeaderLink>
 						<Components.HeaderLink href="/Contact">
-							<Text>
+							<Text font="16px/62px Inter">
 								Contact
 							</Text>
 						</Components.HeaderLink>
@@ -63,7 +67,7 @@ export default (() => {
 				</Box>
 				<Box display="flex" justify-content="center">
 					<Components.ColorButton>
-						<Text margin="0 0px 0 0px">
+						<Text margin="0 0px 0 0px" font="17px/24px Inter">
 							Try for free
 						</Text>
 					</Components.ColorButton>
@@ -97,11 +101,17 @@ export default (() => {
 						</Text>
 					</Components.AdaptiveText>
 				</Components.SubTitle>
-				<Components.BoxPlus def_fxDir="row" def_JC="center" g1300_fxDir="column" g1300_AI="center">
+				<Components.BoxPlus
+					def_fxDir="row"
+					def_JC="center"
+					g1300_fxDir="column"
+					g1300_AI="center"
+					def_AI="flex-start"
+				>
 					<Components.ImageWrapper defWidth="696px" margin="100px 0px 0px 0px" mdWidth="100%" position="relative">
 						<Image width="100%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Chat%20Bot.png?v=2020-11-15T10:40:47.206Z" />
-						<Components.Rotate position="absolute" left="50px" top="400px">
-							<Image width="190px" height="190px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/circle-ribbon.svg?v=2020-11-15T12:44:36.616Z" position="relative" />
+						<Components.Rotate position="absolute" bottom="50px" left="50px">
+							<Image src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/circle-ribbon.svg?v=2020-11-15T12:44:36.616Z" position="relative" sm-width="100%" sm-height="100%" />
 						</Components.Rotate>
 					</Components.ImageWrapper>
 					<Components.BoxPlus
@@ -140,6 +150,136 @@ export default (() => {
 								When you add work to your Slate calendar we automatically calculate useful insights{"\n\n"}
 							</Text>
 						</Box>
+					</Components.BoxPlus>
+				</Components.BoxPlus>
+				<Section>
+					<Components.Title>
+						<Components.AdaptiveText>
+							<Text color="#ffffff">
+								Contents
+							</Text>
+						</Components.AdaptiveText>
+					</Components.Title>
+					<Components.SubTitle>
+						<Components.AdaptiveText margin="-20px 0px 0px 0px">
+							<Text color="#ffffff" font="20px/30px Inter" width="574px" text-align="center">
+								We focus on ergonomics and meeting you where you work. It's only a keystroke away.{"\n\n"}
+							</Text>
+						</Components.AdaptiveText>
+					</Components.SubTitle>
+				</Section>
+				<Components.BoxPlus justify-content="center" md_fxDir="column">
+					<Components.BoxPlus
+						def_JC="center"
+						def_w="476px"
+						height="620px"
+						background="#ffffff"
+						border-radius="10px"
+						align-items="center"
+						flex-direction="column"
+						justify-content="flex-start"
+						margin="30px 15px 0px 15px"
+					>
+						<Text font="20px/30px Inter" margin="50px 0px 16px 0px">
+							<Strong>
+								Work
+							</Strong>
+						</Text>
+						<Text font="16px/24px Inter" width="334px" text-align="center">
+							Ever wondered if you're too reliant
+							<br />
+							{" "}on a client for work? Slate helps{" "}
+							<br />
+							you identify{"\n\n"}
+						</Text>
+						<Components.ColorButton margin="20px 0px 0px 0px" padding="13.5px 46px 13.5px 46px">
+							<Text margin="0px 0px 0px 0px" height="30p" font="16px/24px Inter">
+								Sign Up
+							</Text>
+						</Components.ColorButton>
+						<Image width="90%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Macbook%20Pro.png?v=2020-11-15T13:58:32.054Z" margin="30px 0px 0px 0px" />
+					</Components.BoxPlus>
+					<Components.BoxPlus
+						def_JC="center"
+						def_w="476px"
+						height="620px"
+						background="#ffffff"
+						border-radius="10px"
+						align-items="center"
+						flex-direction="column"
+						justify-content="flex-start"
+						margin="30px 15px 0px 15px"
+					>
+						<Text font="20px/30px Inter" margin="50px 0px 16px 0px">
+							<Strong>
+								Design with real data{"\n\n"}
+							</Strong>
+						</Text>
+						<Text font="16px/24px Inter" width="334px" text-align="center">
+							Ever wondered if you're too reliant
+							<br />
+							{" "}on a client for work? Slate helps{" "}
+							<br />
+							you identify{"\n\n"}
+						</Text>
+						<Components.ColorButton margin="20px 0px 0px 0px" padding="13.5px 46px 13.5px 46px">
+							<Text margin="0px 0px 0px 0px" height="30p" font="16px/24px Inter">
+								Try for free
+							</Text>
+						</Components.ColorButton>
+						<Image width="90%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Boards%20Notifications.png?v=2020-11-15T14:03:55.051Z" margin="30px 0px 0px 0px" />
+					</Components.BoxPlus>
+				</Components.BoxPlus>
+				<Section margin="150px 0 0 0">
+					<Components.Title>
+						<Text color="#ffffff">
+							Gallery
+						</Text>
+					</Components.Title>
+					<Components.SubTitle margin="0px 0px 0px 0px">
+						<Components.AdaptiveText>
+							<Text color="#ffffff" font="20px/30px Inter" width="574px" text-align="center">
+								We focus on ergonomics and meeting you where you work. It's only a keystroke away.{"\n\n"}
+							</Text>
+						</Components.AdaptiveText>
+					</Components.SubTitle>
+				</Section>
+				<Components.BoxPlus justify-content="center" g1300_fxDir="column" g1300_AI="center">
+					<Components.BoxPlus
+						def_w="594px"
+						margin="32px 0px 0px 0px"
+						g1300_h="700px"
+						g1300_w="700px"
+						height="594px"
+					>
+						<Image width="100%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/gallery-image-1-2x.png?v=2020-11-15T15:14:37.379Z" border-radius="12px" box-shadow="0px 4px 31px rgba(0, 0, 0, 0.15)" />
+					</Components.BoxPlus>
+					<Components.BoxPlus
+						def_w="630px"
+						margin="16px 0px 0px 15px"
+						flex-wrap="wrap"
+						align-items="flex-start"
+						justify-content="flex-start"
+						g1300_w="100%"
+					>
+						<Components.BoxPlus margin="16px 0px 16px 16px" g1300_w="calc(50% - 32px)" g1300_h="206px">
+							<Image src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Rectangle%201.png?v=2020-11-15T14:57:15.041Z" border-radius="12px" width="100%" />
+						</Components.BoxPlus>
+						<Components.BoxPlus margin="16px 16px 16px 16px" g1300_w="calc(50% - 32px)" g1300_h="206px">
+							<Image width="100%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Rectangle%201%20(1).png?v=2020-11-15T15:00:50.512Z" border-radius="12px" />
+						</Components.BoxPlus>
+						<Components.BoxPlus margin="16px 16px 16px 16px" g1300_w="345px" g1300_h="206px">
+							<Image src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Rectangle%201%20(2).png?v=2020-11-15T15:01:41.701Z" width="100%" border-radius="12px" />
+						</Components.BoxPlus>
+						<Components.BoxPlus margin="16px 16px 16px 16px" g1300_w="345px" g1300_h="206px">
+							<Image src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Rectangle%201%20(3).png?v=2020-11-15T15:02:40.143Z" width="100%" border-radius="12px" />
+						</Components.BoxPlus>
+						<Components.BoxPlus margin="16px 16px 16px 16px" g1300_w="calc(50% - 32px)" g1300_h="206px">
+							<Image src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Rectangle%201%20(4).png?v=2020-11-15T15:02:55.661Z" width="100%" border-radius="12px" />
+						</Components.BoxPlus>
+						<Components.BoxPlus margin="16px 16px 16px 16px" border-radius="12px" g1300_w="calc(50% - 32px)" g1300_h="206px">
+							<Image src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Rectangle%201%20(5).png?v=2020-11-15T15:03:15.957Z" width="100%" border-radius="12px" />
+						</Components.BoxPlus>
 					</Components.BoxPlus>
 				</Components.BoxPlus>
 			</Box>
