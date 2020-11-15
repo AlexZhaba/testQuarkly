@@ -119,6 +119,7 @@ export default (() => {
 						md_fxDir="column"
 						sm-min-width="0px"
 						def_JC="center"
+						g1300_w="100%"
 					>
 						<Box width="300Px" margin="0px 0px 50px 50px" height="200px">
 							<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-round-restaurant-menu.svg?v=2020-11-15T11:17:13.428Z" />
@@ -491,7 +492,7 @@ export default (() => {
 				<GoogleMap margin="180px 0px 0px 0px" />
 				<Section margin="50px 0 0 0">
 					<Components.BoxPlus justify-content="center" g1300_fxDir="column">
-						<Components.BoxPlus margin="0px 0px 90px 0px">
+						<Components.BoxPlus margin="0px 0px 90px 0px" g700_fxDir="column">
 							<Components.BoxPlus>
 								<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
 									<Text font="20px/30px Inter" color="#ffffff">
