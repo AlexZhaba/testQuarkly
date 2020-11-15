@@ -21,9 +21,8 @@ export default (() => {
 				as="aside"
 				display="block"
 				font="52px/62px Inter"
-				height="7000px"
+				height="10000px"
 				box-shadow="0px 4px 31px rgba(0, 0, 0, 0.15);"
-				lg-height="7000px"
 				margin="0px 0px 0px 0px"
 			>
 				<Components.Card quarkly-title="Header">
@@ -71,7 +70,7 @@ export default (() => {
 							Try for free
 						</Text>
 					</Components.ColorButton>
-					<Components.DefButton />
+					<Components.DefButton font="17px/24px Inter" />
 				</Box>
 				<Components.MainBoxImage>
 					<Components.ImageWrapper defWidth="1550px" mdWidth="1550px" smWidth="754px">
@@ -282,6 +281,65 @@ export default (() => {
 						</Components.BoxPlus>
 					</Components.BoxPlus>
 				</Components.BoxPlus>
+				<Section>
+					<Components.Title>
+						<Components.AdaptiveText>
+							<Text color="#ffffff">
+								Partners
+							</Text>
+						</Components.AdaptiveText>
+					</Components.Title>
+					<Components.SubTitle>
+						<Components.AdaptiveText width="574px" text-align="center" margin="-20px 0px 0px 0px">
+							<Text color="#ffffff" font="20px/30px Inter">
+								We focus on ergonomics and meeting you where you work. It's only a keystroke away.{"\n\n"}
+							</Text>
+						</Components.AdaptiveText>
+					</Components.SubTitle>
+					<Components.BoxPlus justify-content="center" margin="40px 0px 0px 0px">
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_apple-app-store.svg?v=2020-11-15T15:58:22.543Z" margin="0px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_apiary.svg?v=2020-11-15T15:58:39.080Z" margin="0px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_android-icon.svg?v=2020-11-15T15:58:59.760Z" margin="0px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_basecamp.svg?v=2020-11-15T15:59:20.971Z" margin="0px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_airbnb.svg?v=2020-11-15T15:59:37.943Z" margin="0px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_ibm.svg?v=2020-11-15T15:59:57.481Z" margin="0px 37px 0px 37px" />
+					</Components.BoxPlus>
+				</Section>
+				<Section justify-content="center" align-items="center" padding="0 0 0 0">
+					<Components.BoxPlus width="100%" justify-content="center" margin="180px 0px 0px 0px">
+						<Components.BoxPlus
+							background="#343434"
+							border-radius="33px"
+							g1300_fxDir="column"
+							def_w="1219px"
+							g1300_w="700px"
+							overflow-x="hidden"
+							overflow-y="hidden"
+						>
+							<Components.BoxPlus
+								def_w="50%"
+								align-items="center"
+								flex-direction="column"
+								g1300_w="100%"
+								g1300_h="366px"
+							>
+								<Components.AdaptiveText>
+									<Text color="#ffffff" text-align="center" width="487px" margin="78px 0px 16px 0px">
+										OpenType features and Variable fonts{"\n\n"}
+									</Text>
+								</Components.AdaptiveText>
+								<Components.ColorButton font="17px/24px Inter" padding="13.5px 67px 13.5px 67px" margin="0px 0px 0px 0px">
+									<Text font="17px/25px Inter" margin="0 0px 0 0px">
+										Try For Free{" "}
+									</Text>
+								</Components.ColorButton>
+							</Components.BoxPlus>
+							<Components.BoxPlus def_w="50%" g1300_w="100%">
+								<Image width="100%" height="100%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Line%20Chart%201%20(1).png?v=2020-11-15T16:12:24.142Z" />
+							</Components.BoxPlus>
+						</Components.BoxPlus>
+					</Components.BoxPlus>
+				</Section>
 			</Box>
 		</Components.AdaptiveBox>
 		<Link
