@@ -10,7 +10,7 @@ const Container = atomize.div({
 
 const TextLoop = ({
 	text
-}) => <Text fz="80px" c="#02E4C0">
+}) => <Text fz="80px" c="#02E4C0" g700-fz="54px">
 	    
 	{text}
 	  
@@ -24,6 +24,7 @@ const MainTitle = ({ ...props
 		fz="80px"
 		w="100%"
 		d="flex"
+		g700-fz="54px"
 		jc="center"
 	>
 		Work

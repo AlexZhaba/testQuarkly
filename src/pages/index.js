@@ -239,7 +239,7 @@ export default (() => {
 					<Components.SubTitle>
 						<Components.AdaptiveText width="574px" text-align="center" margin="-20px 0px 0px 0px">
 							<Text color="#ffffff" font="20px/30px Inter">
-								We focus on ergonomics and meeting you where you work. It's only a keystroke away.{"\n\n"}
+								We focus on ergonomics and meeting you where you work. It's only a keystroke away.{"\n\n\n\n"}
 							</Text>
 						</Components.AdaptiveText>
 					</Components.SubTitle>
