@@ -120,6 +120,7 @@ export default (() => {
 						md_fxDir="column"
 						lg-width="100%"
 						sm-min-width="0px"
+						def_JC="center"
 					>
 						<Box width="300Px" margin="0px 0px 50px 50px" height="200px">
 							<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-round-restaurant-menu.svg?v=2020-11-15T11:17:13.428Z" />
@@ -314,7 +315,7 @@ export default (() => {
 				</Section>
 				<Section>
 					<Components.Title>
-						<Components.AdaptiveText margin="0px 0px 40px 0px">
+						<Components.AdaptiveText margin="0px 0px 40px 0px" mediumFontSize="36px">
 							<Text color="#ffffff">
 								Testimonials{"\n\n"}
 							</Text>
