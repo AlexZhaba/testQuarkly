@@ -118,6 +118,8 @@ export default (() => {
 						min-width="500px"
 						g1300_fxDir="row"
 						md_fxDir="column"
+						lg-width="100%"
+						sm-min-width="0px"
 					>
 						<Box width="300Px" margin="0px 0px 50px 50px" height="200px">
 							<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-round-restaurant-menu.svg?v=2020-11-15T11:17:13.428Z" />
@@ -159,9 +161,9 @@ export default (() => {
 						</Components.AdaptiveText>
 					</Components.Title>
 					<Components.SubTitle>
-						<Components.AdaptiveText margin="-20px 0px 0px 0px">
-							<Text color="#ffffff" font="20px/30px Inter" width="574px" text-align="center">
-								We focus on ergonomics and meeting you where you work. It's only a keystroke away.{"\n\n"}
+						<Components.AdaptiveText width="574px" text-align="center" margin="-20px 0px 0px 0px">
+							<Text color="#ffffff" font="20px/30px Inter">
+								We focus on ergonomics and meeting you where you work. It's only a keystroke away.{"\n\n\n\n"}
 							</Text>
 						</Components.AdaptiveText>
 					</Components.SubTitle>
@@ -177,6 +179,8 @@ export default (() => {
 						flex-direction="column"
 						justify-content="flex-start"
 						margin="30px 15px 0px 15px"
+						md-display="none"
+						sm-display="flex"
 					>
 						<Text font="20px/30px Inter" margin="50px 0px 16px 0px">
 							<Strong>
@@ -207,6 +211,8 @@ export default (() => {
 						flex-direction="column"
 						justify-content="flex-start"
 						margin="30px 15px 0px 15px"
+						md-display="none"
+						sm-display="flex"
 					>
 						<Text font="20px/30px Inter" margin="50px 0px 16px 0px">
 							<Strong>
