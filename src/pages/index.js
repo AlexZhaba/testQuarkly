@@ -98,16 +98,11 @@ export default (() => {
 					</Components.AdaptiveText>
 				</Components.SubTitle>
 				<Components.BoxPlus def_fxDir="row" def_JC="center" g1300_fxDir="column" g1300_AI="center">
-					<Components.ImageWrapper
-						defWidth="696px"
-						bottom="1265px"
-						left="227px"
-						right="auto"
-						top="auto"
-						margin="100px 0px 0px 0px"
-						mdWidth="100%"
-					>
+					<Components.ImageWrapper defWidth="696px" margin="100px 0px 0px 0px" mdWidth="100%" position="relative">
 						<Image width="100%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Chat%20Bot.png?v=2020-11-15T10:40:47.206Z" />
+						<Components.Rotate position="absolute" left="50px" top="400px">
+							<Image width="190px" height="190px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/circle-ribbon.svg?v=2020-11-15T12:44:36.616Z" position="relative" />
+						</Components.Rotate>
 					</Components.ImageWrapper>
 					<Components.BoxPlus
 						margin="100px 0px 0px 0px"
