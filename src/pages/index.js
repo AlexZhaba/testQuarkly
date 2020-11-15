@@ -2,7 +2,7 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Image, Text, Box, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
-import { Section } from "@quarkly/components";
+import { Section, GoogleMap } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -305,6 +305,149 @@ export default (() => {
 						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_ibm.svg?v=2020-11-15T15:59:57.481Z" margin="0px 37px 0px 37px" />
 					</Components.BoxPlus>
 				</Section>
+				<Section>
+					<Components.Title>
+						<Components.AdaptiveText margin="0px 0px 40px 0px">
+							<Text color="#ffffff">
+								Testimonials{"\n\n"}
+							</Text>
+						</Components.AdaptiveText>
+					</Components.Title>
+					<Components.BoxPlus width="100%" justify-content="center" flex-wrap="wrap">
+						<Components.BoxPlus
+							width="356px"
+							height="176px"
+							border-color="#5c5c5c"
+							border-width="1px"
+							border-style="solid"
+							border-radius="10px"
+							align-items="flex-start"
+							padding="40px 40px 40px 40px"
+							flex-direction="column"
+							margin="8px 8px 8px 8px"
+						>
+							<Box display="flex" align-items="center">
+								<Image width="50px" height="50px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/user-pic-Claire-Bell.png?v=2020-11-15T16:48:36.365Z" />
+								<Box
+									height="40px"
+									display="flex"
+									width="200px"
+									flex-direction="column"
+									margin="0px 0px 0px 23px"
+								>
+									<Text margin="0 0px 0 0px" font="16px/24px Inter" color="#02e4c0">
+										Claire Bell{"\n\n"}
+									</Text>
+									<Text margin="0 0px 0 0px" color="#ffffff" font="16px/24px Inter">
+										Designer
+									</Text>
+								</Box>
+							</Box>
+							<Text font="16px/24px Inter" color="#ffffff">
+								I just wanted to share a quick note and let you know that you do a really good job. I'm glad I decided to work with you. Wonderful experience!{"\n\n"}
+							</Text>
+						</Components.BoxPlus>
+						<Components.BoxPlus
+							width="356px"
+							height="176px"
+							border-color="#5c5c5c"
+							border-width="1px"
+							border-style="solid"
+							border-radius="10px"
+							align-items="flex-start"
+							padding="40px 40px 40px 40px"
+							flex-direction="column"
+							margin="8px 8px 8px 8px"
+						>
+							<Box display="flex" align-items="center">
+								<Image width="50px" height="50px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/user-pic-Claire-Bell.png?v=2020-11-15T16:48:36.365Z" />
+								<Box
+									height="40px"
+									display="flex"
+									width="200px"
+									flex-direction="column"
+									margin="0px 0px 0px 23px"
+								>
+									<Text margin="0 0px 0 0px" font="16px/24px Inter" color="#02e4c0">
+										Claire Bell{"\n\n"}
+									</Text>
+									<Text margin="0 0px 0 0px" font="16px/24px Inter" color="#ffffff">
+										Designer
+									</Text>
+								</Box>
+							</Box>
+							<Text font="16px/24px Inter" color="#ffffff">
+								I just wanted to share a quick note and let you know that you do a really good job. I'm glad I decided to work with you. Wonderful experience!{"\n\n"}
+							</Text>
+						</Components.BoxPlus>
+						<Components.BoxPlus
+							width="356px"
+							height="176px"
+							border-color="#5c5c5c"
+							border-width="1px"
+							border-style="solid"
+							border-radius="10px"
+							align-items="flex-start"
+							padding="40px 40px 40px 40px"
+							flex-direction="column"
+							margin="8px 8px 8px 8px"
+						>
+							<Box display="flex" align-items="center">
+								<Image width="50px" height="50px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/user-pic-Claire-Bell.png?v=2020-11-15T16:48:36.365Z" />
+								<Box
+									height="40px"
+									display="flex"
+									width="200px"
+									flex-direction="column"
+									margin="0px 0px 0px 23px"
+								>
+									<Text margin="0 0px 0 0px" font="16px/24px Inter" color="#02e4c0">
+										Claire Bell{"\n\n"}
+									</Text>
+									<Text margin="0 0px 0 0px" font="16px/24px Inter" color="#ffffff">
+										Designer
+									</Text>
+								</Box>
+							</Box>
+							<Text font="16px/24px Inter" color="#ffffff">
+								I just wanted to share a quick note and let you know that you do a really good job. I'm glad I decided to work with you. Wonderful experience!{"\n\n"}
+							</Text>
+						</Components.BoxPlus>
+						<Components.BoxPlus
+							width="356px"
+							height="176px"
+							border-color="#5c5c5c"
+							border-width="1px"
+							border-style="solid"
+							border-radius="10px"
+							align-items="flex-start"
+							padding="40px 40px 40px 40px"
+							flex-direction="column"
+							margin="8px 8px 8px 8px"
+						>
+							<Box display="flex" align-items="center">
+								<Image width="50px" height="50px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/user-pic-Claire-Bell.png?v=2020-11-15T16:48:36.365Z" />
+								<Box
+									height="40px"
+									display="flex"
+									width="200px"
+									flex-direction="column"
+									margin="0px 0px 0px 23px"
+								>
+									<Text margin="0 0px 0 0px" font="16px/24px Inter" color="#02e4c0">
+										Claire Bell{"\n\n"}
+									</Text>
+									<Text margin="0 0px 0 0px" font="16px/24px Inter" color="#ffffff">
+										Designer
+									</Text>
+								</Box>
+							</Box>
+							<Text font="16px/24px Inter" color="#ffffff">
+								I just wanted to share a quick note and let you know that you do a really good job. I'm glad I decided to work with you. Wonderful experience!{"\n\n"}
+							</Text>
+						</Components.BoxPlus>
+					</Components.BoxPlus>
+				</Section>
 				<Section justify-content="center" align-items="center" padding="0 0 0 0">
 					<Components.BoxPlus width="100%" justify-content="center" margin="180px 0px 0px 0px">
 						<Components.BoxPlus
@@ -338,6 +481,153 @@ export default (() => {
 								<Image width="100%" height="100%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Line%20Chart%201%20(1).png?v=2020-11-15T16:12:24.142Z" />
 							</Components.BoxPlus>
 						</Components.BoxPlus>
+					</Components.BoxPlus>
+				</Section>
+				<GoogleMap margin="180px 0px 0px 0px" />
+				<Section>
+					<Components.BoxPlus justify-content="center">
+						<Components.BoxPlus>
+							<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
+								<Text font="20px/30px Inter" color="#ffffff">
+									Product{"\n\n"}
+								</Text>
+								<Text
+									font="16px/24px Inter"
+									margin="10px 0px 10px 0px"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									hover-cursor="pointer"
+									hover-transition="all .3s ease 0s"
+								>
+									Overview
+								</Text>
+								<Text
+									margin="10px 0px 10px 0px"
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									cursor="pointer"
+									transition="all .3s ease 0s"
+								>
+									Feautres
+								</Text>
+								<Text
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									margin="10px 0px 10px 0px"
+									hover-color="#FFF"
+									transition="all .3s ease 0s"
+									cursor="pointer"
+								>
+									Roadmap
+								</Text>
+								<Text
+									margin="10px 0px 10px 0px"
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									cursor="pointer"
+									transition="all .3s ease 0s"
+								>
+									Pricing
+								</Text>
+							</Components.BoxPlus>
+						</Components.BoxPlus>
+						<Components.BoxPlus>
+							<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
+								<Text font="20px/30px Inter" color="#ffffff">
+									About
+								</Text>
+								<Text
+									font="16px/24px Inter"
+									margin="10px 0px 10px 0px"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									hover-cursor="pointer"
+									hover-transition="all .3s ease 0s"
+								>
+									Overview
+								</Text>
+								<Text
+									margin="10px 0px 10px 0px"
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									cursor="pointer"
+									transition="all .3s ease 0s"
+								>
+									Team
+								</Text>
+								<Text
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									margin="10px 0px 10px 0px"
+									hover-color="#FFF"
+									transition="all .3s ease 0s"
+									cursor="pointer"
+								>
+									Vacancy Jobs
+								</Text>
+								<Text
+									margin="10px 0px 10px 0px"
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									cursor="pointer"
+									transition="all .3s ease 0s"
+								>
+									Awards
+								</Text>
+							</Components.BoxPlus>
+						</Components.BoxPlus>
+						<Components.BoxPlus>
+							<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
+								<Text font="20px/30px Inter" color="#ffffff">
+									Contact
+								</Text>
+								<Text
+									font="16px/24px Inter"
+									margin="10px 0px 10px 0px"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									hover-cursor="pointer"
+									hover-transition="all .3s ease 0s"
+								>
+									Head Office
+								</Text>
+								<Text
+									margin="10px 0px 10px 0px"
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									cursor="pointer"
+									transition="all .3s ease 0s"
+								>
+									Subsidiaries
+								</Text>
+								<Text
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									margin="10px 0px 10px 0px"
+									hover-color="#FFF"
+									transition="all .3s ease 0s"
+									cursor="pointer"
+								>
+									Support
+								</Text>
+								<Text
+									margin="10px 0px 10px 0px"
+									font="16px/24px Inter"
+									color="#b9b9b9"
+									hover-color="#FFF"
+									cursor="pointer"
+									transition="all .3s ease 0s"
+								>
+									Feekback
+								</Text>
+							</Components.BoxPlus>
+						</Components.BoxPlus>
+						<Components.BoxPlus />
 					</Components.BoxPlus>
 				</Section>
 			</Box>

@@ -30,7 +30,7 @@ const MainTitle = ({ ...props
 	</Text>
 	    
     
-	<Box w="100%" d="flex" jc="center" mt="-40px">
+	<Box w="100%" d="flex" jc="center" mt="-10px">
 		    
 		<TextLoopReact>
 			      
