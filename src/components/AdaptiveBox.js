@@ -17,6 +17,10 @@ const theme = {
 		gsm: [{
 			type: "max-width",
 			value: 479
+		}],
+		g1300: [{
+			type: "max-width",
+			value: 1300
 		}]
 	}
 };

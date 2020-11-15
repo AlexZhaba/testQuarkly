@@ -81,7 +81,72 @@ export default (() => {
 						/>
 					</Components.ImageWrapper>
 				</Components.MainBoxImage>
-				<Box />
+				<Components.Title>
+					<Components.AdaptiveText defFontSize="52px" color="#ffffff">
+						<Text margin="0 0px 0 0px">
+							Features{"\n\n"}
+						</Text>
+					</Components.AdaptiveText>
+				</Components.Title>
+				<Components.SubTitle>
+					<Components.AdaptiveText defFontSize="20px" color="#ffffff" width="574px" display="flex">
+						<Text margin="0 0px 0 0px" font="20px/30px Inter" text-align="center">
+							Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule{"\n\n"}
+							<br />
+							{"\n\n"}
+						</Text>
+					</Components.AdaptiveText>
+				</Components.SubTitle>
+				<Components.BoxPlus def_fxDir="row" def_JC="center" g1300_fxDir="column" g1300_AI="center">
+					<Components.ImageWrapper
+						defWidth="696px"
+						bottom="1265px"
+						left="227px"
+						right="auto"
+						top="auto"
+						margin="100px 0px 0px 0px"
+						mdWidth="100%"
+					>
+						<Image width="100%" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/Chat%20Bot.png?v=2020-11-15T10:40:47.206Z" />
+					</Components.ImageWrapper>
+					<Components.BoxPlus
+						margin="100px 0px 0px 0px"
+						def_fxDir="column"
+						min-width="500px"
+						g1300_fxDir="row"
+						md_fxDir="column"
+					>
+						<Box width="300Px" margin="0px 0px 50px 50px" height="200px">
+							<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-round-restaurant-menu.svg?v=2020-11-15T11:17:13.428Z" />
+							<Text color="#ffffff" margin="20px 0px 0 0px" font="20px/30px Inter" width="150px">
+								A single source of truth{"\n\n"}
+							</Text>
+							<Text color="#ffffff" margin="20px 0px 16px 0px" font="16px/24px Inter" height="96px">
+								When you add work to your Slate calendar we automatically calculate useful insights{"\n\n"}
+							</Text>
+						</Box>
+						<Box width="300Px" height="200px" margin="0px 0px 50px 50px">
+							<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-alien-outline.svg?v=2020-11-15T11:16:01.214Z" />
+							<Text color="#ffffff" margin="20px 0px 0 0px" font="20px/30px Inter" width="170px">
+								Intuitive interface
+								<br />
+								{"\n\n"}
+							</Text>
+							<Text color="#ffffff" margin="20px 0px -50px 0px" font="16px/24px Inter" height="96px">
+								When you add work to your Slate calendar we automatically calculate useful insights{"\n\n"}
+							</Text>
+						</Box>
+						<Box width="300Px" height="200px" margin="0px 0px 50px 50px">
+							<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-all-inclusive.svg?v=2020-11-15T11:09:58.309Z" />
+							<Text color="#ffffff" margin="20px 0px 0 0px" font="20px/30px Inter" width="150px">
+								Or with rules{"\n\n"}
+							</Text>
+							<Text color="#ffffff" margin="20px 0px 16px 0px" font="16px/24px Inter" height="96px">
+								When you add work to your Slate calendar we automatically calculate useful insights{"\n\n"}
+							</Text>
+						</Box>
+					</Components.BoxPlus>
+				</Components.BoxPlus>
 			</Box>
 		</Components.AdaptiveBox>
 		<Link
