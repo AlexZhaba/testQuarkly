@@ -84,7 +84,7 @@ export default (() => {
 					</Components.ImageWrapper>
 				</Components.MainBoxImage>
 				<Components.Title>
-					<Components.AdaptiveText defFontSize="52px" color="#ffffff" g700size="36px">
+					<Components.AdaptiveText defFontSize="52px" color="#ffffff" g700size="36px" mediumFontSize="36px">
 						<Text margin="0 0px 0 0px">
 							Features{"\n\n"}
 						</Text>
@@ -120,6 +120,8 @@ export default (() => {
 						sm-min-width="0px"
 						def_JC="center"
 						g1300_w="100%"
+						g1300_JC="center"
+						md_AI="center"
 					>
 						<Box width="300Px" margin="0px 0px 50px 50px" height="200px">
 							<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-round-restaurant-menu.svg?v=2020-11-15T11:17:13.428Z" />
@@ -154,7 +156,7 @@ export default (() => {
 				</Components.BoxPlus>
 				<Section>
 					<Components.Title>
-						<Components.AdaptiveText>
+						<Components.AdaptiveText mediumFontSize="36px">
 							<Text color="#ffffff">
 								Contents
 							</Text>
@@ -179,7 +181,7 @@ export default (() => {
 						flex-direction="column"
 						justify-content="flex-start"
 						margin="30px 15px 0px 15px"
-						sm-display="flex"
+						g700_w="95%"
 					>
 						<Text font="20px/30px Inter" margin="50px 0px 16px 0px">
 							<Strong>
@@ -210,8 +212,8 @@ export default (() => {
 						flex-direction="column"
 						justify-content="flex-start"
 						margin="30px 15px 0px 15px"
-						md-display="none"
 						sm-display="flex"
+						g700_w="95%"
 					>
 						<Text font="20px/30px Inter" margin="50px 0px 16px 0px">
 							<Strong>
@@ -235,7 +237,7 @@ export default (() => {
 				</Components.BoxPlus>
 				<Section margin="150px 0 0 0">
 					<Components.Title>
-						<Components.AdaptiveText>
+						<Components.AdaptiveText mediumFontSize="36px">
 							<Text color="#ffffff">
 								Gallery
 							</Text>
@@ -289,7 +291,7 @@ export default (() => {
 				</Components.BoxPlus>
 				<Section>
 					<Components.Title>
-						<Components.AdaptiveText>
+						<Components.AdaptiveText mediumFontSize="36px">
 							<Text color="#ffffff">
 								Partners
 							</Text>
