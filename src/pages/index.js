@@ -21,7 +21,6 @@ export default (() => {
 				as="aside"
 				display="block"
 				font="52px/62px Inter"
-				height="10000px"
 				box-shadow="0px 4px 31px rgba(0, 0, 0, 0.15);"
 				margin="0px 0px 0px 0px"
 			>
@@ -296,13 +295,13 @@ export default (() => {
 							</Text>
 						</Components.AdaptiveText>
 					</Components.SubTitle>
-					<Components.BoxPlus justify-content="center" margin="40px 0px 0px 0px">
-						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_apple-app-store.svg?v=2020-11-15T15:58:22.543Z" margin="0px 37px 0px 37px" />
-						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_apiary.svg?v=2020-11-15T15:58:39.080Z" margin="0px 37px 0px 37px" />
-						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_android-icon.svg?v=2020-11-15T15:58:59.760Z" margin="0px 37px 0px 37px" />
-						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_basecamp.svg?v=2020-11-15T15:59:20.971Z" margin="0px 37px 0px 37px" />
-						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_airbnb.svg?v=2020-11-15T15:59:37.943Z" margin="0px 37px 0px 37px" />
-						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_ibm.svg?v=2020-11-15T15:59:57.481Z" margin="0px 37px 0px 37px" />
+					<Components.BoxPlus justify-content="center" flex-wrap="wrap">
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_apple-app-store.svg?v=2020-11-15T15:58:22.543Z" margin="40px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_apiary.svg?v=2020-11-15T15:58:39.080Z" margin="40px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_android-icon.svg?v=2020-11-15T15:58:59.760Z" margin="40px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_basecamp.svg?v=2020-11-15T15:59:20.971Z" margin="40px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_airbnb.svg?v=2020-11-15T15:59:37.943Z" margin="40px 37px 0px 37px" />
+						<Image width="60px" height="60px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/logos_ibm.svg?v=2020-11-15T15:59:57.481Z" margin="40px 37px 0px 37px" />
 					</Components.BoxPlus>
 				</Section>
 				<Section>
@@ -484,150 +483,196 @@ export default (() => {
 					</Components.BoxPlus>
 				</Section>
 				<GoogleMap margin="180px 0px 0px 0px" />
-				<Section>
-					<Components.BoxPlus justify-content="center">
-						<Components.BoxPlus>
-							<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
-								<Text font="20px/30px Inter" color="#ffffff">
-									Product{"\n\n"}
-								</Text>
-								<Text
-									font="16px/24px Inter"
-									margin="10px 0px 10px 0px"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									hover-cursor="pointer"
-									hover-transition="all .3s ease 0s"
-								>
-									Overview
-								</Text>
-								<Text
-									margin="10px 0px 10px 0px"
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									cursor="pointer"
-									transition="all .3s ease 0s"
-								>
-									Feautres
-								</Text>
-								<Text
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									margin="10px 0px 10px 0px"
-									hover-color="#FFF"
-									transition="all .3s ease 0s"
-									cursor="pointer"
-								>
-									Roadmap
-								</Text>
-								<Text
-									margin="10px 0px 10px 0px"
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									cursor="pointer"
-									transition="all .3s ease 0s"
-								>
-									Pricing
-								</Text>
+				<Section margin="150px 0 0 0">
+					<Components.BoxPlus justify-content="center" g1300_fxDir="column">
+						<Components.BoxPlus margin="0px 0px 90px 0px">
+							<Components.BoxPlus>
+								<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
+									<Text font="20px/30px Inter" color="#ffffff">
+										Product{"\n\n"}
+									</Text>
+									<Text
+										font="16px/24px Inter"
+										margin="10px 0px 10px 0px"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										hover-cursor="pointer"
+										hover-transition="all .3s ease 0s"
+									>
+										Overview
+									</Text>
+									<Text
+										margin="10px 0px 10px 0px"
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										cursor="pointer"
+										transition="all .3s ease 0s"
+									>
+										Feautres
+									</Text>
+									<Text
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										margin="10px 0px 10px 0px"
+										hover-color="#FFF"
+										transition="all .3s ease 0s"
+										cursor="pointer"
+									>
+										Roadmap
+									</Text>
+									<Text
+										margin="10px 0px 10px 0px"
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										cursor="pointer"
+										transition="all .3s ease 0s"
+									>
+										Pricing
+									</Text>
+								</Components.BoxPlus>
+							</Components.BoxPlus>
+							<Components.BoxPlus>
+								<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
+									<Text font="20px/30px Inter" color="#ffffff">
+										About
+									</Text>
+									<Text
+										font="16px/24px Inter"
+										margin="10px 0px 10px 0px"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										hover-cursor="pointer"
+										hover-transition="all .3s ease 0s"
+									>
+										Overview
+									</Text>
+									<Text
+										margin="10px 0px 10px 0px"
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										cursor="pointer"
+										transition="all .3s ease 0s"
+									>
+										Team
+									</Text>
+									<Text
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										margin="10px 0px 10px 0px"
+										hover-color="#FFF"
+										transition="all .3s ease 0s"
+										cursor="pointer"
+									>
+										Vacancy Jobs
+									</Text>
+									<Text
+										margin="10px 0px 10px 0px"
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										cursor="pointer"
+										transition="all .3s ease 0s"
+									>
+										Awards
+									</Text>
+								</Components.BoxPlus>
+							</Components.BoxPlus>
+							<Components.BoxPlus>
+								<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
+									<Text font="20px/30px Inter" color="#ffffff">
+										Contact
+									</Text>
+									<Text
+										font="16px/24px Inter"
+										margin="10px 0px 10px 0px"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										hover-cursor="pointer"
+										hover-transition="all .3s ease 0s"
+									>
+										Head Office
+									</Text>
+									<Text
+										margin="10px 0px 10px 0px"
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										cursor="pointer"
+										transition="all .3s ease 0s"
+									>
+										Subsidiaries
+									</Text>
+									<Text
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										margin="10px 0px 10px 0px"
+										hover-color="#FFF"
+										transition="all .3s ease 0s"
+										cursor="pointer"
+									>
+										Support
+									</Text>
+									<Text
+										margin="10px 0px 10px 0px"
+										font="16px/24px Inter"
+										color="#b9b9b9"
+										hover-color="#FFF"
+										cursor="pointer"
+										transition="all .3s ease 0s"
+									>
+										Feekback
+									</Text>
+								</Components.BoxPlus>
 							</Components.BoxPlus>
 						</Components.BoxPlus>
-						<Components.BoxPlus>
-							<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
-								<Text font="20px/30px Inter" color="#ffffff">
-									About
-								</Text>
+						<Components.BoxPlus flex-direction="column" justify-content="center">
+							<Components.BoxPlus margin="0px 0px 30px 0px">
+								<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-bx-map.svg?v=2020-11-15T17:39:58.682Z" />
 								<Text
-									font="16px/24px Inter"
-									margin="10px 0px 10px 0px"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									hover-cursor="pointer"
-									hover-transition="all .3s ease 0s"
+									margin="0px 0px 0px 20px"
+									font="16px/16px Inter"
+									color="#ffffff"
+									text-align="center"
+									display="flex"
+									align-items="center"
 								>
-									Overview
-								</Text>
-								<Text
-									margin="10px 0px 10px 0px"
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									cursor="pointer"
-									transition="all .3s ease 0s"
-								>
-									Team
-								</Text>
-								<Text
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									margin="10px 0px 10px 0px"
-									hover-color="#FFF"
-									transition="all .3s ease 0s"
-									cursor="pointer"
-								>
-									Vacancy Jobs
-								</Text>
-								<Text
-									margin="10px 0px 10px 0px"
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									cursor="pointer"
-									transition="all .3s ease 0s"
-								>
-									Awards
+									65806 Briarwood Road San Francisco CA{"\n\n"}
 								</Text>
 							</Components.BoxPlus>
-						</Components.BoxPlus>
-						<Components.BoxPlus>
-							<Components.BoxPlus flex-direction="column" margin="0px 120px 0px 0px">
-								<Text font="20px/30px Inter" color="#ffffff">
-									Contact
-								</Text>
+							<Components.BoxPlus>
+								<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-baseline-phone-android.svg?v=2020-11-15T17:41:23.943Z" />
 								<Text
-									font="16px/24px Inter"
-									margin="10px 0px 10px 0px"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									hover-cursor="pointer"
-									hover-transition="all .3s ease 0s"
+									margin="0px 0px 0px 20px"
+									font="16px/16px Inter"
+									color="#ffffff"
+									text-align="center"
+									display="flex"
+									align-items="center"
 								>
-									Head Office
-								</Text>
-								<Text
-									margin="10px 0px 10px 0px"
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									cursor="pointer"
-									transition="all .3s ease 0s"
-								>
-									Subsidiaries
-								</Text>
-								<Text
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									margin="10px 0px 10px 0px"
-									hover-color="#FFF"
-									transition="all .3s ease 0s"
-									cursor="pointer"
-								>
-									Support
-								</Text>
-								<Text
-									margin="10px 0px 10px 0px"
-									font="16px/24px Inter"
-									color="#b9b9b9"
-									hover-color="#FFF"
-									cursor="pointer"
-									transition="all .3s ease 0s"
-								>
-									Feekback
+									417-865-1442{"\n\n"}
 								</Text>
 							</Components.BoxPlus>
+							<Components.BoxPlus margin="30px 0px 0px 0px">
+								<Image
+									width="30px"
+									height="30px"
+									src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-twitter-outlined.svg?v=2020-11-15T17:45:47.981Z"
+									margin="0px 26px 0px 0px"
+									hover-cursor="pointer"
+								/>
+								<Image
+									width="30px"
+									height="30px"
+									src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-facebook-filled.svg?v=2020-11-15T17:46:55.950Z"
+									margin="0px 26px 0px 0px"
+									hover-cursor="pointer"
+								/>
+								<Image width="30px" height="30px" src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/icon-linkedin-filled.svg?v=2020-11-15T17:47:03.839Z" hover-cursor="pointer" />
+							</Components.BoxPlus>
 						</Components.BoxPlus>
-						<Components.BoxPlus />
 					</Components.BoxPlus>
 				</Section>
 			</Box>
