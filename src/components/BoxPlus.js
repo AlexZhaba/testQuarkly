@@ -29,9 +29,9 @@ const BoxPlus = ({
 	gsm-ai={props.sm_AI}
 	w={props.def_w}
 	gmd-w={props.md_w}
-	gsm-w={props.sm_w}
-	g700-w={props.g700_w}
 	g1300-w={props.g1300_w}
+	g700-w={props.g700_w}
+	gsm-w={props.sm_w}
 	g1300-h={props.g1300_h}
 >
 	    

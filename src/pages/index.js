@@ -180,7 +180,6 @@ export default (() => {
 						flex-direction="column"
 						justify-content="flex-start"
 						margin="30px 15px 0px 15px"
-						md-display="none"
 						sm-display="flex"
 					>
 						<Text font="20px/30px Inter" margin="50px 0px 16px 0px">
