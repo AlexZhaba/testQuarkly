@@ -14,13 +14,13 @@ export default (() => {
 		</Helmet>
 		<Components.AdaptiveBox>
 			<Box
-				min-height="1080px"
 				justify-content="center"
 				align-items="center"
 				background="#181818"
 				as="aside"
 				display="block"
 				font="16px Inter"
+				height="4000px"
 			>
 				<Components.Card quarkly-title="Header">
 					<Components.HeaderImage>
@@ -61,6 +61,27 @@ export default (() => {
 				<Box display="flex" justify-content="center" align-items="center">
 					<Components.MainSubtitle display="flex" justify-content="center" />
 				</Box>
+				<Box display="flex" justify-content="center">
+					<Components.ColorButton>
+						<Text margin="0 0px 0 0px">
+							Try for free
+						</Text>
+					</Components.ColorButton>
+					<Components.DefButton />
+				</Box>
+				<Components.MainBoxImage>
+					<Components.ImageWrapper defWidth="1550px" mdWidth="1550px" smWidth="754px">
+						<Image
+							src="https://uploads.quarkly.io/5fad51bc2c4ef2001e323fb0/images/screens.png?v=2020-11-14T15:59:22.400Z"
+							width="100%"
+							position="relative"
+							margin="0px 0px 0px 50%"
+							transform="translateX(-50%)"
+							display="block"
+						/>
+					</Components.ImageWrapper>
+				</Components.MainBoxImage>
+				<Box />
 			</Box>
 		</Components.AdaptiveBox>
 		<Link

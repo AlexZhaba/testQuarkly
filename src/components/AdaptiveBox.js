@@ -13,6 +13,10 @@ const theme = {
 		gmd: [{
 			type: "max-width",
 			value: 992
+		}],
+		gsm: [{
+			type: "max-width",
+			value: 479
 		}]
 	}
 };
